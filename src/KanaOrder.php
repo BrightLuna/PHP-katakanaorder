@@ -1,8 +1,11 @@
 <?php
+
 namespace sharapeco\KanaOrder;
 
-class KanaOrder {
+use Normalizer;
 
+class KanaOrder
+{
 	// 変換テーブル
 	protected static $kanaOrderTable = array(
 		array(
@@ -33,10 +36,10 @@ class KanaOrder {
 	);
 
 	/// @param kana: String
-	public static function get($kana) {
-
-		// Unicode 結合文字を合成済み文字に変換する
-		$kana = \Patchwork\Utf8::filter($kana);
+	public static function get($kana)
+	{
+		// Unicode 結合文字を合成済み文字に変換する (NFC)
+		$kana = Normalizer::normalize($kana, Normalizer::FORM_C);
 
 		// 長音符を小書きのあいうえおに置換する
 		$kana = preg_replace('/([あぁかがさざただまはばぱまやゃらわ])ー/u', '$1ぁ', $kana);
@@ -73,5 +76,4 @@ class KanaOrder {
 		}
 		return $skana . $marks;
 	}
-
 }
