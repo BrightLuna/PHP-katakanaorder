@@ -4,73 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-<<<<<<< HEAD
     "content-hash": "cdde609614b5f7d2ca4d60259246358b",
     "packages": [],
-=======
-    "content-hash": "0da02286979d5708e01bbe3cb9f97a1f",
-    "packages": [
-        {
-            "name": "patchwork/utf8",
-            "version": "v1.3.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/tchwork/utf8.git",
-                "reference": "30ec6451aec7d2536f0af8fe535f70c764f2c47a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/tchwork/utf8/zipball/30ec6451aec7d2536f0af8fe535f70c764f2c47a",
-                "reference": "30ec6451aec7d2536f0af8fe535f70c764f2c47a",
-                "shasum": ""
-            },
-            "require": {
-                "lib-pcre": ">=7.3",
-                "php": ">=5.3.0"
-            },
-            "suggest": {
-                "ext-iconv": "Use iconv for best performance",
-                "ext-intl": "Use Intl for best performance",
-                "ext-mbstring": "Use Mbstring for best performance",
-                "ext-wfio": "Use WFIO for UTF-8 filesystem access on Windows"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.3-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Patchwork\\": "src/Patchwork/"
-                },
-                "classmap": [
-                    "src/Normalizer.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "(Apache-2.0 or GPL-2.0)"
-            ],
-            "authors": [
-                {
-                    "name": "Nicolas Grekas",
-                    "email": "p@tchwork.com"
-                }
-            ],
-            "description": "Portable and performant UTF-8, Unicode and Grapheme Clusters for PHP",
-            "homepage": "https://github.com/tchwork/utf8",
-            "keywords": [
-                "grapheme",
-                "i18n",
-                "unicode",
-                "utf-8",
-                "utf8"
-            ],
-            "time": "2016-05-18T13:57:10+00:00"
-        }
-    ],
->>>>>>> 7458a48718d045b043efb08ae0eceb56cf1e77ec
     "packages-dev": [
         {
             "name": "doctrine/instantiator",
@@ -121,7 +56,6 @@
                 "constructor",
                 "instantiate"
             ],
-<<<<<<< HEAD
             "support": {
                 "issues": "https://github.com/doctrine/instantiator/issues",
                 "source": "https://github.com/doctrine/instantiator/tree/1.4.0"
@@ -141,9 +75,6 @@
                 }
             ],
             "time": "2020-11-10T18:47:58+00:00"
-=======
-            "time": "2015-06-14T21:17:01+00:00"
->>>>>>> 7458a48718d045b043efb08ae0eceb56cf1e77ec
         },
         {
             "name": "myclabs/deep-copy",
@@ -191,7 +122,6 @@
                 "object",
                 "object graph"
             ],
-<<<<<<< HEAD
             "support": {
                 "issues": "https://github.com/myclabs/DeepCopy/issues",
                 "source": "https://github.com/myclabs/DeepCopy/tree/1.10.2"
@@ -203,9 +133,6 @@
                 }
             ],
             "time": "2020-11-13T09:40:50+00:00"
-=======
-            "time": "2017-10-19T19:58:43+00:00"
->>>>>>> 7458a48718d045b043efb08ae0eceb56cf1e77ec
         },
         {
             "name": "nikic/php-parser",
@@ -421,15 +348,11 @@
                 "reflection",
                 "static analysis"
             ],
-<<<<<<< HEAD
             "support": {
                 "issues": "https://github.com/phpDocumentor/ReflectionCommon/issues",
                 "source": "https://github.com/phpDocumentor/ReflectionCommon/tree/2.x"
             },
             "time": "2020-06-27T09:03:43+00:00"
-=======
-            "time": "2017-09-11T18:02:19+00:00"
->>>>>>> 7458a48718d045b043efb08ae0eceb56cf1e77ec
         },
         {
             "name": "phpdocumentor/reflection-docblock",
@@ -482,15 +405,11 @@
                 }
             ],
             "description": "With this component, a library can provide support for annotations via DocBlocks or otherwise retrieve information that is embedded in a DocBlock.",
-<<<<<<< HEAD
             "support": {
                 "issues": "https://github.com/phpDocumentor/ReflectionDocBlock/issues",
                 "source": "https://github.com/phpDocumentor/ReflectionDocBlock/tree/5.3.0"
             },
             "time": "2021-10-19T17:43:47+00:00"
-=======
-            "time": "2017-11-10T14:09:06+00:00"
->>>>>>> 7458a48718d045b043efb08ae0eceb56cf1e77ec
         },
         {
             "name": "phpdocumentor/type-resolver",
@@ -535,16 +454,12 @@
                     "email": "me@mikevanriel.com"
                 }
             ],
-<<<<<<< HEAD
             "description": "A PSR-5 based resolver of Class names, Types and Structural Element Names",
             "support": {
                 "issues": "https://github.com/phpDocumentor/TypeResolver/issues",
                 "source": "https://github.com/phpDocumentor/TypeResolver/tree/1.6.0"
             },
             "time": "2022-01-04T19:58:01+00:00"
-=======
-            "time": "2017-07-14T14:27:02+00:00"
->>>>>>> 7458a48718d045b043efb08ae0eceb56cf1e77ec
         },
         {
             "name": "phpspec/prophecy",
@@ -607,15 +522,11 @@
                 "spy",
                 "stub"
             ],
-<<<<<<< HEAD
             "support": {
                 "issues": "https://github.com/phpspec/prophecy/issues",
                 "source": "https://github.com/phpspec/prophecy/tree/v1.15.0"
             },
             "time": "2021-12-08T12:19:24+00:00"
-=======
-            "time": "2017-11-24T13:59:53+00:00"
->>>>>>> 7458a48718d045b043efb08ae0eceb56cf1e77ec
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -682,7 +593,6 @@
                 "testing",
                 "xunit"
             ],
-<<<<<<< HEAD
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-code-coverage/issues",
                 "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/9.2.10"
@@ -694,9 +604,6 @@
                 }
             ],
             "time": "2021-12-05T09:12:13+00:00"
-=======
-            "time": "2017-04-02T07:44:40+00:00"
->>>>>>> 7458a48718d045b043efb08ae0eceb56cf1e77ec
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -746,7 +653,6 @@
                 "filesystem",
                 "iterator"
             ],
-<<<<<<< HEAD
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-file-iterator/issues",
                 "source": "https://github.com/sebastianbergmann/php-file-iterator/tree/3.0.6"
@@ -758,9 +664,6 @@
                 }
             ],
             "time": "2021-12-02T12:48:52+00:00"
-=======
-            "time": "2017-11-27T13:52:08+00:00"
->>>>>>> 7458a48718d045b043efb08ae0eceb56cf1e77ec
         },
         {
             "name": "phpunit/php-invoker",
@@ -823,11 +726,7 @@
                     "type": "github"
                 }
             ],
-<<<<<<< HEAD
             "time": "2020-09-28T05:58:55+00:00"
-=======
-            "time": "2015-06-21T13:50:34+00:00"
->>>>>>> 7458a48718d045b043efb08ae0eceb56cf1e77ec
         },
         {
             "name": "phpunit/php-text-template",
@@ -886,11 +785,7 @@
                     "type": "github"
                 }
             ],
-<<<<<<< HEAD
             "time": "2020-10-26T05:33:50+00:00"
-=======
-            "time": "2017-02-26T11:10:40+00:00"
->>>>>>> 7458a48718d045b043efb08ae0eceb56cf1e77ec
         },
         {
             "name": "phpunit/php-timer",
@@ -949,11 +844,7 @@
                     "type": "github"
                 }
             ],
-<<<<<<< HEAD
             "time": "2020-10-26T13:16:10+00:00"
-=======
-            "time": "2017-12-04T08:55:13+00:00"
->>>>>>> 7458a48718d045b043efb08ae0eceb56cf1e77ec
         },
         {
             "name": "phpunit/phpunit",
@@ -1042,7 +933,6 @@
                 "testing",
                 "xunit"
             ],
-<<<<<<< HEAD
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "source": "https://github.com/sebastianbergmann/phpunit/tree/9.5.13"
@@ -1058,9 +948,6 @@
                 }
             ],
             "time": "2022-01-24T07:33:35+00:00"
-=======
-            "time": "2017-12-17T06:14:38+00:00"
->>>>>>> 7458a48718d045b043efb08ae0eceb56cf1e77ec
         },
         {
             "name": "sebastian/cli-parser",
@@ -1116,7 +1003,6 @@
                     "type": "github"
                 }
             ],
-<<<<<<< HEAD
             "time": "2020-09-28T06:08:49+00:00"
         },
         {
@@ -1174,9 +1060,6 @@
                 }
             ],
             "time": "2020-10-26T13:08:54+00:00"
-=======
-            "time": "2017-06-30T09:13:00+00:00"
->>>>>>> 7458a48718d045b043efb08ae0eceb56cf1e77ec
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
@@ -1221,7 +1104,6 @@
             ],
             "description": "Looks up which function or method a line of code belongs to",
             "homepage": "https://github.com/sebastianbergmann/code-unit-reverse-lookup/",
-<<<<<<< HEAD
             "support": {
                 "issues": "https://github.com/sebastianbergmann/code-unit-reverse-lookup/issues",
                 "source": "https://github.com/sebastianbergmann/code-unit-reverse-lookup/tree/2.0.3"
@@ -1233,9 +1115,6 @@
                 }
             ],
             "time": "2020-09-28T05:30:19+00:00"
-=======
-            "time": "2017-03-04T06:30:41+00:00"
->>>>>>> 7458a48718d045b043efb08ae0eceb56cf1e77ec
         },
         {
             "name": "sebastian/comparator",
@@ -1299,7 +1178,6 @@
                 "compare",
                 "equality"
             ],
-<<<<<<< HEAD
             "support": {
                 "issues": "https://github.com/sebastianbergmann/comparator/issues",
                 "source": "https://github.com/sebastianbergmann/comparator/tree/4.0.6"
@@ -1368,9 +1246,6 @@
                 }
             ],
             "time": "2020-10-26T15:52:27+00:00"
-=======
-            "time": "2017-01-29T09:50:25+00:00"
->>>>>>> 7458a48718d045b043efb08ae0eceb56cf1e77ec
         },
         {
             "name": "sebastian/diff",
@@ -1436,11 +1311,7 @@
                     "type": "github"
                 }
             ],
-<<<<<<< HEAD
             "time": "2020-10-26T13:10:38+00:00"
-=======
-            "time": "2017-05-22T07:24:03+00:00"
->>>>>>> 7458a48718d045b043efb08ae0eceb56cf1e77ec
         },
         {
             "name": "sebastian/environment",
@@ -1493,7 +1364,6 @@
                 "environment",
                 "hhvm"
             ],
-<<<<<<< HEAD
             "support": {
                 "issues": "https://github.com/sebastianbergmann/environment/issues",
                 "source": "https://github.com/sebastianbergmann/environment/tree/5.1.3"
@@ -1505,9 +1375,6 @@
                 }
             ],
             "time": "2020-09-28T05:52:38+00:00"
-=======
-            "time": "2016-11-26T07:53:53+00:00"
->>>>>>> 7458a48718d045b043efb08ae0eceb56cf1e77ec
         },
         {
             "name": "sebastian/exporter",
@@ -1574,7 +1441,6 @@
                 "export",
                 "exporter"
             ],
-<<<<<<< HEAD
             "support": {
                 "issues": "https://github.com/sebastianbergmann/exporter/issues",
                 "source": "https://github.com/sebastianbergmann/exporter/tree/4.0.4"
@@ -1586,9 +1452,6 @@
                 }
             ],
             "time": "2021-11-11T14:18:36+00:00"
-=======
-            "time": "2016-11-19T08:54:04+00:00"
->>>>>>> 7458a48718d045b043efb08ae0eceb56cf1e77ec
         },
         {
             "name": "sebastian/global-state",
@@ -1642,7 +1505,6 @@
             "keywords": [
                 "global state"
             ],
-<<<<<<< HEAD
             "support": {
                 "issues": "https://github.com/sebastianbergmann/global-state/issues",
                 "source": "https://github.com/sebastianbergmann/global-state/tree/5.0.3"
@@ -1711,9 +1573,6 @@
                 }
             ],
             "time": "2020-11-28T06:42:11+00:00"
-=======
-            "time": "2015-10-12T03:26:01+00:00"
->>>>>>> 7458a48718d045b043efb08ae0eceb56cf1e77ec
         },
         {
             "name": "sebastian/object-enumerator",
@@ -1760,7 +1619,6 @@
             ],
             "description": "Traverses array structures and object graphs to enumerate all referenced objects",
             "homepage": "https://github.com/sebastianbergmann/object-enumerator/",
-<<<<<<< HEAD
             "support": {
                 "issues": "https://github.com/sebastianbergmann/object-enumerator/issues",
                 "source": "https://github.com/sebastianbergmann/object-enumerator/tree/4.0.4"
@@ -1827,9 +1685,6 @@
                 }
             ],
             "time": "2020-10-26T13:14:26+00:00"
-=======
-            "time": "2017-02-18T15:18:39+00:00"
->>>>>>> 7458a48718d045b043efb08ae0eceb56cf1e77ec
         },
         {
             "name": "sebastian/recursion-context",
@@ -1882,7 +1737,6 @@
             ],
             "description": "Provides functionality to recursively process PHP variables",
             "homepage": "http://www.github.com/sebastianbergmann/recursion-context",
-<<<<<<< HEAD
             "support": {
                 "issues": "https://github.com/sebastianbergmann/recursion-context/issues",
                 "source": "https://github.com/sebastianbergmann/recursion-context/tree/4.0.4"
@@ -1894,9 +1748,6 @@
                 }
             ],
             "time": "2020-10-26T13:17:30+00:00"
-=======
-            "time": "2016-11-19T07:33:16+00:00"
->>>>>>> 7458a48718d045b043efb08ae0eceb56cf1e77ec
         },
         {
             "name": "sebastian/resource-operations",
@@ -1941,7 +1792,6 @@
             ],
             "description": "Provides a list of PHP built-in functions that operate on resources",
             "homepage": "https://www.github.com/sebastianbergmann/resource-operations",
-<<<<<<< HEAD
             "support": {
                 "issues": "https://github.com/sebastianbergmann/resource-operations/issues",
                 "source": "https://github.com/sebastianbergmann/resource-operations/tree/3.0.3"
@@ -2009,9 +1859,6 @@
                 }
             ],
             "time": "2021-06-15T12:49:02+00:00"
-=======
-            "time": "2015-07-28T20:34:47+00:00"
->>>>>>> 7458a48718d045b043efb08ae0eceb56cf1e77ec
         },
         {
             "name": "sebastian/version",
@@ -2054,7 +1901,6 @@
             ],
             "description": "Library that helps with managing the version number of Git-hosted PHP projects",
             "homepage": "https://github.com/sebastianbergmann/version",
-<<<<<<< HEAD
             "support": {
                 "issues": "https://github.com/sebastianbergmann/version/issues",
                 "source": "https://github.com/sebastianbergmann/version/tree/3.0.2"
@@ -2066,9 +1912,6 @@
                 }
             ],
             "time": "2020-09-28T06:39:44+00:00"
-=======
-            "time": "2016-10-03T07:35:21+00:00"
->>>>>>> 7458a48718d045b043efb08ae0eceb56cf1e77ec
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -2127,7 +1970,6 @@
             ],
             "description": "Symfony polyfill for ctype functions",
             "homepage": "https://symfony.com",
-<<<<<<< HEAD
             "keywords": [
                 "compatibility",
                 "ctype",
@@ -2202,9 +2044,6 @@
                 }
             ],
             "time": "2021-07-28T10:34:58+00:00"
-=======
-            "time": "2018-01-03T07:37:34+00:00"
->>>>>>> 7458a48718d045b043efb08ae0eceb56cf1e77ec
         },
         {
             "name": "webmozart/assert",
@@ -2258,15 +2097,11 @@
                 "check",
                 "validate"
             ],
-<<<<<<< HEAD
             "support": {
                 "issues": "https://github.com/webmozarts/assert/issues",
                 "source": "https://github.com/webmozarts/assert/tree/1.10.0"
             },
             "time": "2021-03-09T10:59:23+00:00"
-=======
-            "time": "2016-11-23T20:04:58+00:00"
->>>>>>> 7458a48718d045b043efb08ae0eceb56cf1e77ec
         }
     ],
     "aliases": [],
@@ -2275,14 +2110,8 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-<<<<<<< HEAD
         "php": ">=5.3.3"
     },
     "platform-dev": [],
     "plugin-api-version": "2.1.0"
-=======
-        "php": "^5.3.3 || ^7.0"
-    },
-    "platform-dev": []
->>>>>>> 7458a48718d045b043efb08ae0eceb56cf1e77ec
 }
